@@ -1,12 +1,13 @@
 {
   "name": "@asunamarie/card",
   "type": "module",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "This is a sample package.",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "@asunamarie/card" : "index.js"
+  },
   "scripts": {
-    "card": "node --experimental-modules index.js",
     "start": "node --experimental-modules index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
